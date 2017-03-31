@@ -1,0 +1,41 @@
+@media screen and (min-width: 1024px){
+  .full-height{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  #projects img{
+  height: 350px;
+  width: 350px;
+  }
+  
+  .fifth-height{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+  }
+}
+  
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+#about{
+  background-color: #336891;
+  color: #FBFBFB;
+}
+
+#projects{
+  background-color: #white;
+  color: #336891;
+}
+
+#background{
+  background-color: #336891;
+  color: #FBFBFB;
+}
+
+#footer{
+  background-color: #222;
+  color: white;
+}
