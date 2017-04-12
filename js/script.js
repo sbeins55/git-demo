@@ -1,4 +1,4 @@
-$(document).ready(function(){
+function geoFindMe() {
     
     // When the location button is clicked then display current position in the message well.
     function success(position){
@@ -9,7 +9,5 @@ $(document).ready(function(){
         $("#message").html("Sorry there is no Geolocation to return");      
     }
 
-     $("#location").on("click", function(){
-        navigator.geolocation.getCurrentPosition(success, error);
-    });
-});
+    navigator.geolocation.getCurrentPosition(success, error);
+}
